@@ -1,6 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 The UI is made with Material UI's components and the content was pulled from <a href="https://github.com/pomber/covid19">https://github.com/pomber/covid19</a>
-See the page at: [https://www.diklagefen.co.il/projects/covid19-react/]https://www.diklagefen.co.il/projects/covid19-react/
+
+See the page at: https://www.diklagefen.co.il/projects/covid19-react/
 
 ## A simple one page 
 
