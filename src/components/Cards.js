@@ -20,10 +20,10 @@ const Cards = ({ countryData, country, selectValue }) => {
                         <h2 className="center teal-text"><i className="material-icons">local_hospital</i></h2>        
                         <div>
                             <h4 className="center">{ Number(lastData.confirmed).toLocaleString() }</h4>                            
-                                        <h6>Confirmed cases</h6>
+                                        <h6>Reported Cases</h6>
                             <p className="light"><span>
                             {(confirmedArr[confirmedArr.length - 1] - confirmedArr[confirmedArr.length - 8]) >= 1 ?
-                                    `+${Number(confirmedArr[confirmedArr.length - 1] - confirmedArr[confirmedArr.length - 8]).toLocaleString()} cases added since last week`
+                                    `+${Number(confirmedArr[confirmedArr.length - 1] - confirmedArr[confirmedArr.length - 8]).toLocaleString()} cases since last week`
                                     : ` No new cases this week`}                               
                             </span></p>
                         </div> 
@@ -36,10 +36,10 @@ const Cards = ({ countryData, country, selectValue }) => {
                     <h2 className="center teal-text"><i className="material-icons">mood_bad</i></h2>        
                             <div>
                                 <h4 className="center"> {Number(lastData.deaths).toLocaleString()}</h4>
-                                <h6>Deaths</h6>
+                                <h6>Fatalities</h6>
                             <p className="light"><span>
                             {(deathsArr[deathsArr.length - 1] - deathsArr[deathsArr.length - 8]) >= 1 ?
-                                    `+${Number(deathsArr[deathsArr.length - 1] - deathsArr[deathsArr.length - 8]).toLocaleString()} cases added since last week`
+                                    `+${Number(deathsArr[deathsArr.length - 1] - deathsArr[deathsArr.length - 8]).toLocaleString()} cases since last week`
                                     : ` No new cases this week`}
                                 </span></p>           
                             </div> 
@@ -55,7 +55,7 @@ const Cards = ({ countryData, country, selectValue }) => {
                                 <h6>Recovered</h6>
                             <p className="light"><span>
                                 {(recoveredArr[recoveredArr.length - 1] - recoveredArr[recoveredArr.length - 8]) >= 1 ?
-                                    `+${Number(recoveredArr[recoveredArr.length - 1] - recoveredArr[recoveredArr.length - 8]).toLocaleString()} cases added since last week`
+                                    `+${Number(recoveredArr[recoveredArr.length - 1] - recoveredArr[recoveredArr.length - 8]).toLocaleString()} cases since last week`
                                     : ` No new cases this week`}
                                 </span></p>           
                             </div> 

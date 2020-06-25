@@ -135,7 +135,7 @@ let lastSixDaysArr = [];
       <div className="App">
         <div className="section no-pad-bot valign-wrapper">
           <div className="container center">         
-            <h1 className="carbon-text">Covid 19 statistics in
+            <h1 className="carbon-text">Covid 19 statistics for
             <Select country={country} onChange={this.handleChange} allData={allData} />            
             </h1>
           <div className="row center">
@@ -151,8 +151,8 @@ let lastSixDaysArr = [];
           <div className="col s12 m12 row tabs-wrapper">
           <Tabs>
             <TabList>
-              <Tab>Active cases</Tab>
-              <Tab>Confirmed cases</Tab>
+              <Tab>Active cases for the last week</Tab>
+              <Tab>Confirmed cases comparison</Tab>
             </TabList>
 
             <TabPanel>
